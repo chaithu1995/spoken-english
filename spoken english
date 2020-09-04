@@ -1,0 +1,14 @@
+Spoken english to written english:
+
+
+Approach is : take the user input and see whether he pronounced a number or not
+
+from word2number import w2n
+
+Def convert(sentence):
+output=[]
+For s in sentence:
+    If i in[‘zero’,’one’,’two’,’three’,’four’,’five’,’six’,’seven’,’eight’,nine’]:
+        output.append(w2n.word_to_num(i))
+        Else:
+output.append(s)
